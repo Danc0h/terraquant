@@ -3,7 +3,7 @@ import { protect } from "../../middleware/authMiddleware.js";
 import {
   createBatch,
   listBatches,
-} from "../../services/trading/carbonBatchService.js";
+} from "../../services/trading/carbonBatchservice.js";
 
 const router = express.Router();
 
